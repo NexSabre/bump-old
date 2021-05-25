@@ -1,7 +1,5 @@
-from sys import version
-from typing import Any, AnyStr, List
-
 import os
+from typing import Any, AnyStr, List
 
 
 class Version:
@@ -77,3 +75,4 @@ if __name__ == "__main__":
     # bump minor
     version.minor_bump()
     assert version.minor == 2
+    assert version.major == 0
