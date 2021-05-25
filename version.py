@@ -13,7 +13,7 @@ class Version:
         self._len_version: int = None
 
         if potential_version:
-            set_version(potential_version)
+            self.set_version(potential_version)
 
     def set_version(self, potential_v) -> None:
         version = potential_v.split('.')
